@@ -1,0 +1,251 @@
+
+
+
+
+
+.nav{
+    
+    font-size: 20pt;
+    font-family: Times;
+    text-align:left;
+    color:white;
+    left:0px;
+    display: inline-flex;
+    
+}
+
+.barra{
+
+    display: inline-flex;
+    
+}
+
+.parrafos-index{
+    font-size: 20pt;
+    font-family:Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin:15px;
+    
+}
+
+h1{
+    font-size: 36pt;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif,'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:white;
+    background-color:olivedrab;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+.carrusel{
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    margin-bottom: 100px;
+    
+
+}
+.carrusel ul{
+list-style: none;
+margin:0;
+padding: 0;
+max-width: 1030px;
+scroll-behavior:smooth;
+}
+
+.carrusel-imagenes{
+    display: flex;
+    gap:10px;
+    overflow:auto;
+}
+.carrusel-imagenes img{
+    background:white;
+    width: 450px;
+    height: 300px;
+    border: 4px solid yellowgreen;
+    object-fit: contain;
+}
+
+
+.carrusel-menu{
+    display: none;
+}
+
+@media screen and (min-width:500px) {
+    .carrusel-imagenes{
+        overflow:hidden;
+        
+    }
+
+    .carrusel-imagenes img{
+        width: 1015px;
+        height: 500px;   
+    }
+    .carrusel-menu{
+        display: block;
+    }
+    .carrusel-menu img{
+        width:60px;
+        height:51.3px;
+        border: 3px solid yellowgreen;
+    }
+
+    .carrusel-menu img:hover{
+        border-color:darkgoldenrod;
+    }
+}
+
+h2{
+    font-size: 28pt;
+    font-family: Times;
+    text-align:center;
+    color:white;
+    background-color: olivedrab;
+    padding: 30px;
+    margin:15px;
+    margin-bottom: 60px;
+   
+    
+
+
+}
+
+h3{
+    font-size:24pt ;
+    font-family: Times;
+    text-align: center;
+    color:white;
+    background-color: olivedrab;
+    padding: 30px;
+    margin:15px;
+    margin-bottom: 60px;
+}
+
+h4{
+
+    
+    font-size: 18pt;
+    font-family: Times;
+    text-align:center;
+    color: olivedrab;
+    background-color: wheat;
+}
+
+li{
+    font-size: 20pt;
+    font-family: cochin;
+    text-align: justify;
+}
+
+ul{
+    font-size: 20pt;
+    font-family: cochin;
+    text-align: justify;
+
+}
+
+.btn{
+    padding:10px 5px;
+    font-size: 15 px;
+    font-family: Times;
+    color:black;
+    background-color:whitesmoke;
+    border: 1px solid yellowgreen;
+    cursor: pointer;
+    text-align:center;
+    position:static;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+
+.barra{
+display:right;
+padding: 30px;
+margin:15px;
+}
+
+.text_center{
+
+    text-align: center;
+}
+
+
+.form-parrafos{
+    font-size: 20pt;
+    font-family:Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin:15px;
+    
+}
+
+.form-cuerpo{
+    font-size: 20pt;
+    font-family:Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin:15px;
+}
+.ul-saloninst{
+    padding: 30px;
+}
+.contacto{
+    font-size:24pt ;
+    font-family: Times;
+    text-align: center;
+    color:white;
+    background-color: olivedrab;
+    padding: 30px;
+    margin:15px;
+    margin-bottom: 60px;
+}
+
+.contacto-parrafos{
+    font-size: 20pt;
+    font-family:Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin:15px;
+    
+}
+
+.icono{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+}
+
+.footer{
+    
+    background-color:olivedrab;
+    padding: 30px;
+    margin:15px;
+    
+    
+}
+
+.container{
+
+    display: inline-flex;
+    justify-content: center;
+
+
+}
+
+.ubicacion{
+    text-align: center;
+    padding: 60px;
+    margin:15px;
+    
+
+}
